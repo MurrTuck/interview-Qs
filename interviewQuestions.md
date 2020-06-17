@@ -132,14 +132,14 @@ Functional Components are build from JavaSCript functions, and are commonly used
 
 Functional components are also often used for static display:
 
-```
-import React from 'react';
 
-const FuncComponent = () => {
-    return(
-        <h1>Hello, I'm a functional component</h1>
-    )
-}
+    import React from 'react';
 
-export default FuncComponent;
-```
+    const FuncComponent = () => {
+        return(
+            <h1>Hello, I'm a functional component</h1>
+        )
+    }
+
+    export default FuncComponent;
+
