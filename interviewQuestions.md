@@ -106,25 +106,25 @@ Class components are built from JavaScript ```classes```, and allow us to store 
 
 _the syntaxt for a class component is as follows:_
 
-```
-import React, {Component} from 'react';
 
-class ClassComponent extends Component {
-    constructor(){
-        super()
+    import React, {Component} from 'react';
 
-        this.state = {
-            state: '',
-            example: true
+    class ClassComponent extends Component {
+        constructor(){
+            super()
+
+            this.state = {
+                state: '',
+                example: true
+            }
+        }
+        render() {
+            return <h1>Hello, I'm a class component</h1>
         }
     }
-    render() {
-        return <h1>Hello, I'm a class component</h1>
-    }
-}
 
-export default ClassComponent;
-```
+    export default ClassComponent;
+
 
 **Functional Components**
 
@@ -143,3 +143,14 @@ Functional components are also often used for static display:
 
     export default FuncComponent;
 
+
+
+HTML/CSS: 
+
+What are the different values for the position property in CSS, and how do they work? 
+JavaScript: 
+
+Explain some of the differences between let, var, and const.
+React: 
+
+What are refs in React?
