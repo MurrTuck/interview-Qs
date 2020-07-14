@@ -55,5 +55,9 @@ HTML/CSS:
   } 
   ```
 
+* The addition (+) selector is an Adjacent sibling combinator. The (+) combinator selects adjacent siblings. This means that the second element directly follows the first, and both share the same parent. 
+
+* **SYNTAX:** A + B
+* **EXAMPLE:**  ```h1 + p``` will match all ```<p>``` elements that directly follow and ```<h2>```.
  
 Question found at: https://lms.devmountain.com/courses/70/pages/first-kata-are-the-numbers-in-order?module_item_id=21638
